@@ -1,0 +1,55 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__address {
+  display: block;
+  margin-left: auto;
+}
+
+.header__address-mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.header__address-tel-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.header__address-mail,
+.header__address-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition: var(--timing-fn);
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.header__address-mail {
+  margin-right: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__address-tel {
+  display: inline-flex;
+  align-items: center;
+}
